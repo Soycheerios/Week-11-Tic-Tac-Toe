@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="ticTacToe.css">
+</head>
+<body class="game">
+
+    
+    <div class="container"><br>
+        <h1 class="gameTitle">Tic-Tac-Toe</h1> 
+        <br>
+        <h2 class="header" id="turn-header">Player X's turn</h2><br>
+        <div class="row">
+          <div id="cell-0" class="col-4 cell"></div>
+          <div id="cell-1" class="col-4 cell"></div>
+          <div id="cell-2" class="col-4 cell"></div>
+        </div>
+        <div class="row">
+          <div id="cell-3" class="col-4 cell"></div>
+          <div id="cell-4" class="col-4 cell"></div>
+          <div id="cell-5" class="col-4 cell"></div>
+        </div>
+        <div class="row">
+          <div id="cell-6" class="col-4 cell"></div>
+          <div id="cell-7" class="col-4 cell"></div>
+          <div id="cell-8" class="col-4 cell"></div>
+        </div>
+        <div class="row">
+          <div class="col-12"><br><br>
+            <div class="col text-center">
+            <button id="restart-button" class="btn btn-primary">Restart Game</button>
+            </div>
+          </div>
+        </div>
+        <div id="alert-container"></div>
+    </div>
+      
+      
+      
+    
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="ticTacToe.js"></script>
+    
+</body>
+</html>

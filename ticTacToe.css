@@ -1,0 +1,23 @@
+.cell {
+    border: 1px solid black;
+    height: 100px;
+    font-size: 75px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: lightgray;
+  }
+  
+  .game {
+    background-color: beige;
+  }
+
+  .gameTitle {
+    text-align: center;
+  }
+
+  .header {
+    text-align: center;
+  }
